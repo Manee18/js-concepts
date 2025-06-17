@@ -1,26 +1,31 @@
-function readStory() {
-  console.log("Start reading the story");
-  readChapter1();
-  readChapter2();
-  readChapter3();
-  console.log("Finished reading the story");
+function makeSandwich() {
+  console.log("Start making sandwich");
+  getBread();
+  addFilling();
+  closeSandwich();
+  console.log("Sandwich is ready!");
 }
 
-function readChapter1() {
-  console.log("Reading Chapter 1: The Beginning");
+function getBread() {
+  console.log("Getting the bread");
 }
 
-function readChapter2() {
-  console.log("Reading Chapter 2: The Adventure");
-  readShortStory();
+function addFilling() {
+  console.log("Adding fillings");
+  addCheese();
+  addLettuce();
 }
 
-function readShortStory() {
-  console.log("Reading a short story inside Chapter 2");
+function addCheese() {
+  console.log("Adding cheese");
 }
 
-function readChapter3() {
-  console.log("Reading Chapter 3: The End");
+function addLettuce() {
+  console.log("Adding lettuce");
 }
 
-readStory();
+function closeSandwich() {
+  console.log("Closing the sandwich");
+}
+
+makeSandwich();
