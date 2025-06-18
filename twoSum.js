@@ -22,34 +22,3 @@ console.log (twosum (arr,target));
 
 
 
-// let a=0;
-// let b=1;
-
-// function printfibonacci (n) {
-
-//     console.log(" fibonacci series: ");
-    
-//     for (let i=0; i<=n; i++){
-//         console.log (a)
-
-//         let next = a+b;
-//             a=b ;
-//             b=next;
-
-
-//     }
-// }
-
-// console.log ( printfibonacci (10))
-
-// let rows=5;
-
-// for (let i=1; i<=5; i++){
-//     str="";
-
-//     for(let j=1; j<=i; j++ ){
-//         str+=j;
-//     }
-
-//     console.log (str)
-// }
