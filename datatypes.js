@@ -1,6 +1,6 @@
 // Numbers:
 let length = 16;
-let weight = 5.5;
+let weight = 5.1;
 
 // Strings:
 let color = "Yellow";
